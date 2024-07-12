@@ -89,6 +89,7 @@ nav{
        background: linear-gradient(45deg,#F41CB2,#FF912E) ;
 }
 
+/* For the pop-up  */
 #close{
   background-color:rgb(228, 45, 35);
   color: aliceblue;
@@ -112,7 +113,6 @@ nav{
   align-items: center;
   justify-content: center;
 }
-
 .instructions {
     padding-top: 50px;
   background-color: rgb(255, 255, 255);
