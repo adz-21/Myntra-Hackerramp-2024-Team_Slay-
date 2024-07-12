@@ -88,3 +88,40 @@ nav{
 .floating-button:hover,.btn:hover {
        background: linear-gradient(45deg,#F41CB2,#FF912E) ;
 }
+
+#close{
+  background-color:rgb(228, 45, 35);
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.tab {
+  opacity: 0;
+  position: fixed;
+  background-color: rgb(222, 174, 211);
+  font-size: 0.9rem;
+  line-height: 150%;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instructions {
+    padding-top: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  text-align: center;
+  z-index: 999;
+}
+
+.opentab {
+  opacity: 0.8;
+  z-index: 999;
+}
