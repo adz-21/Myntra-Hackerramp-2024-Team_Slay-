@@ -125,3 +125,7 @@ nav{
   opacity: 0.8;
   z-index: 999;
 }
+
+.gridbtn {
+    margin-top: 20px;
+}
