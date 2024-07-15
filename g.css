@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: lavenderblush;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.side-image {
+    width: 300px;
+    height: auto;
+    margin: 0px;
+}
+
+.header-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header-text p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(221, 68, 68, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    padding: 16px;
+    margin: 10px;
+    display: block;
+
+    justify-self: center;  
+    align-self: center;    
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    padding: 16px;
+    margin: 0;
+}
+.pink{
+    color: #F41CB2;
+}
+.orange{
+    color: #F25511;
+}
+.yellow{
+    color: #FF912E;
+}
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+}
