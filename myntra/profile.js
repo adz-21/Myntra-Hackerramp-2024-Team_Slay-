@@ -65,4 +65,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let coins = numberOfPins*100;
     $('#user-coins').text(coins);
 
+
+    $('.coins-btn').on('click', function() {
+        $('#coins-info').css('display', 'block');
+    });
+
+    // Handle close button click to hide the modal
+    $('.close').on('click', function() {
+        $('#coins-info').css('display', 'none');
+    });
 });
