@@ -27,7 +27,11 @@ Fashion for everyone! Our AI model showcases products on various body sizes, ens
 - 3D Models: Rotate and view the clothes on small, medium, and large 3D human models.
 - Body Positivity: Embrace all body shapes and sizes, making fashion accessible and fun for everyone.
 
-  
+https://github.com/user-attachments/assets/db3d1c61-3fa2-46f9-ad87-7bcc68ec7c3c
+
+
+https://github.com/user-attachments/assets/49194c39-9f2c-454f-80ff-20f2d4647fa9
+
 
 ### ❤️ Myntra Discover
 The ultimate GenZ hub for the best and latest collections.
