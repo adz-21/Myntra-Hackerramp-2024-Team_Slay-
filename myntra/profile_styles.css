@@ -4,11 +4,16 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
+.restOfPage{
+      
+       background: linear-gradient(45deg,#F41CB2,#FF912E) ;
 
-.profile-container {
+}
+.profile-container 
+{
     max-width: 800px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0.1, 0, 0, 0.3);
 }
@@ -95,4 +100,7 @@ nav{
 #myntra-moods{
     margin-left: 0px;
     font-weight: 700;
+}
+.your_profile_h2{
+    color : #5a3cab;
 }

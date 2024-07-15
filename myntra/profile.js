@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // localStorage.clear();
     // User data (this would typically come from our backend)
     const userData = {
         name: "Aditi Soni",
@@ -60,5 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update the text inside <span id="pins-created"> with the number of pins
     $('#pins-created').text(numberOfPins);
+
+    let coins = numberOfPins*100;
+    $('#user-coins').text(coins);
 
 });

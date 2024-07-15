@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // localStorage.clear();
      // Handle floating button click to show the modal
     $('#createPinBtn').on('click', function() {
         $('#createPinModal').css('display', 'block');
