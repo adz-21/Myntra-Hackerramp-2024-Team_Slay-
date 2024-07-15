@@ -24,15 +24,17 @@ Fashion for everyone! Our AI model showcases products on various body sizes, ens
 ### ❤️ Myntra Discover
 The ultimate GenZ hub for the best and latest collections.
 
- ### 🎁 Reward System
+![image](https://github.com/user-attachments/assets/2e2a4e65-7060-43b2-83e0-10398428a970)
+![image](https://github.com/user-attachments/assets/6e2751f7-cbe0-4d6a-bcba-aad3d651229f)
+
+
+ ### 🎁 Reward System - An incentive for users to keep coming back 
 Earn coins and rewards as you engage with the platform.
 
 - Earn Coins: Collect coins for creating pins, liking posts, and sharing your profile.
 - Exclusive Benefits: Use your coins for discounts and special offers on Myntra.
 - Gamified Experience: Make fashion fun with an engaging reward system that keeps you coming back.
-
-
-
+![image](https://github.com/user-attachments/assets/866b5a2e-5cc1-4997-a6c9-2488491c51dc)
 
 
 ### Thank you for being a part of MyntraMoods. Let’s make fashion fun, inclusive, and inspiring together! 🌈👗✨
