@@ -13,7 +13,12 @@ body {
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+nav{
+    background-color: #FFFFFF;
+}
+.nav-item {
+    margin-left: 20px;
+}
 .logo img {
     width: 50px;
     height: auto;
@@ -142,4 +147,7 @@ body {
 h1 {
     font-size: 4.5rem;
     font-weight: 400;
+}
+img{
+    padding: 15px;
 }

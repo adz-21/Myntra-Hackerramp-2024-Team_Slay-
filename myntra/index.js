@@ -83,8 +83,6 @@ $(document).ready(function() {
     // });
 
 
-
-
     // Load liked items from localStorage
     let likedItems = JSON.parse(localStorage.getItem('likedItems')) || [];
 

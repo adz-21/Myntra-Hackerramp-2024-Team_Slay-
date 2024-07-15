@@ -129,19 +129,21 @@ nav{
 } */
 
 .gridbtn {
-    display: block;
+    display: inline-block;
     margin-top: 30px;
     position: absolute;
     bottom: 10px;
     left: 10px;
 
 }
-
+.shop{
+    margin-left: 22%;
+}
 .btn-like {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    background-color: rgb(133, 101, 101);
+    background-color: rgb(216, 215, 215);
     color: white;
     border: none;
     padding: 10px;
@@ -170,6 +172,7 @@ nav{
 }
 
 .modal-content {
+    align-items: center;
     background-color: #fefefe;
     margin: 5% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -178,6 +181,7 @@ nav{
 }
 
 .close {
+    margin-left: 80%;
     color: #aaa;
     float: right;
     font-size: 28px;
