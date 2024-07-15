@@ -34,6 +34,7 @@ Earn coins and rewards as you engage with the platform.
 - Earn Coins: Collect coins for creating pins, liking posts, and sharing your profile.
 - Exclusive Benefits: Use your coins for discounts and special offers on Myntra.
 - Gamified Experience: Make fashion fun with an engaging reward system that keeps you coming back.
+- <br>
 ![image](https://github.com/user-attachments/assets/866b5a2e-5cc1-4997-a6c9-2488491c51dc)
 
 
