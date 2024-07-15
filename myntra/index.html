@@ -49,76 +49,93 @@
     </div>    
         <div class="grid">
             <div class="grid-item">
-                <img class="grid-imgs" src="images/8.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/8.jpeg" alt="Post 1"  data-id="1">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/2.jpeg" alt="Post 2">
+                <img class="grid-imgs" src="images/2.jpeg" alt="Post 2" data-id="2">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/3.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/3.jpeg" alt="Post 1"  data-id="3">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/4.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/4.jpeg" alt="Post 1" data-id="4">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/5.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/5.jpeg" alt="Post 1" data-id="5">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/whiteTop.jpg" alt="Post 1">
+                <img class="grid-imgs" src="images/whiteTop.jpg" alt="Post 1" data-id="6">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <a href="../3D-Models/whitetop.html"><button type="button" class="btn btn-dark gridbtn">View In 3D</button></a>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/1.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/1.jpeg" alt="Post 1" data-id="7">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/suit.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/suit.jpeg" alt="Post 1" data-id="8">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <a href="../3D-Models/officewear.html"><button type="button" class="btn btn-dark gridbtn">View In 3D</button></a>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/9.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/9.jpeg" alt="Post 1" data-id="9">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/_.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/_.jpeg" alt="Post 1" data-id="10">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             <div class="grid-item">
-                <img class="grid-imgs" src="images/7.jpeg" alt="Post 1">
+                <img class="grid-imgs" src="images/7.jpeg" alt="Post 1" data-id="11">
                 <figcaption class="image-caption">This is the caption for the image.</figcaption>
                 <button type="button" class="btn btn-dark gridbtn">View In 3D</button>
+                <i class="fa-regular fa-heart btn-like btn"></i>
             </div>
             
 
         </div>
-    <button class="floating-button">+</button>
+    <button class="floating-btn" id="createPinBtn">+</button>
 
-    <div class = "tab" id = "tab">
-    <div class = "instructions" id= "instructions">
-    <p>
-    <h5><u> Create Your Own Pin </u> : <br> </h5>
-   
-    </p>
-    <button id = "close"> Upload </button>
-    </div>
+    <div id="createPinModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create a Pin</h2>
+            <form id="createPinForm">
+                <label for="pinImage">Upload Photo:</label>
+                <input type="file" id="pinImage" required>
+                
+                <label for="pinCaption">Caption:</label>
+                <input type="text" id="pinCaption" required>
+                
+                <button type="submit">Post</button>
+            </form>
+        </div>
     </div>
   
-
+    <script src="https://kit.fontawesome.com/3df8b0c758.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="index.js"></script>
     </body>

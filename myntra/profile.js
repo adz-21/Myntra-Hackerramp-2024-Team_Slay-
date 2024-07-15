@@ -5,14 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         profilePicture: "./images/profile.png",
         coins: 0,
         pinsCreated: 0,
-        savedPins: [
-            "pin1.jpg",
-            "pin2.jpg",
-            "pin3.jpg"
-        ],
+        savedPins: [],
         createdPins: [
-            "created1.jpg",
-            "created2.jpg"
         ]
     };
 
@@ -49,4 +43,22 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Profile shared successfully');
         }).catch(console.error);
     });
+
+    let likedItems = JSON.parse(localStorage.getItem('likedItems')) || [];
+
+    likedItems.forEach(item => {
+        $('#saved-pins').append(`<img src="${item.src}" alt="Liked Item">`);
+    });
+
+    let createdPins = JSON.parse(localStorage.getItem('createdPins')) || [];
+
+    createdPins.forEach(item => {
+        $('#created-pins').append(`<img src="${item.src}" alt="Created Item">`);
+    });
+
+    let numberOfPins = createdPins.length; // Get the number of created pins
+
+    // Update the text inside <span id="pins-created"> with the number of pins
+    $('#pins-created').text(numberOfPins);
+
 });
