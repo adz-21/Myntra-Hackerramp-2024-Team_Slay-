@@ -21,7 +21,7 @@ Welcome to MyntraMoods, the ultimate fashion destination that combines trendsett
 
 
  ### 👗 AI Model for Size Inclusivity
-Fashion for everyone! Our AI model showcases products on various body sizes, ensuring inclusivity and personalization.
+Fashion for everyone! Our 3D models showcase products on various body sizes, ensuring inclusivity and personalization. It also lets you look at how the fabric fits the body so that you can make well-informed purchases!
 
 - Try Before You Buy: See how outfits from MynPins look on different body types with our “3D” feature.
 - 3D Models: Rotate and view the clothes on small, medium, and large 3D human models.
