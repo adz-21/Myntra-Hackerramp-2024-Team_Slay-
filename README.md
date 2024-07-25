@@ -53,10 +53,7 @@ Earn coins and rewards as you engage with the platform.
 
 ### Thank you for being a part of MyntraMoods. Let’s make fashion fun, inclusive, and inspiring together! 🌈👗✨
 -----
-#### 🛠 Tech Stack
-Frontend: HTML, CSS, JavaScript, jQuery <br>
-Backend: Node.js, Express.js <br>
-Database: MongoDB <br> 
-3D Modeling: Three.js, WebGL <br> 
-AI Integration: Python, TensorFlow.js <br> 
+Feel free to download this project! Also, due to this being a prototype in it's initial phases - the functionalities for 3d model have only been added to 2 products. 
+
+
   
